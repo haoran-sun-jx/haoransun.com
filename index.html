@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Haoran Sun - Personal Website</title>
+    <!-- Bootstrap 5 CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body { background-color: #f8f9fa; }
+        .tab-content { padding: 20px; background-color: white; border: 1px solid #dee2e6; border-top: none; }
+        img.profile-photo { max-width: 200px; border-radius: 50%; }
+    </style>
+</head>
+<body>
+    <div class="container mt-4">
+        <!-- Nav tabs -->
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Home</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="research-tab" data-bs-toggle="tab" data-bs-target="#research-tab-pane" type="button" role="tab" aria-controls="research-tab-pane" aria-selected="false">Research</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="teaching-tab" data-bs-toggle="tab" data-bs-target="#teaching-tab-pane" type="button" role="tab" aria-controls="teaching-tab-pane" aria-selected="false">Teaching</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="cv-tab" data-bs-toggle="tab" data-bs-target="#cv-tab-pane" type="button" role="tab" aria-controls="cv-tab-pane" aria-selected="false">CV</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">Contact</button>
+            </li>
+        </ul>
+
+        <!-- Tab panes -->
+        <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+                <div class="text-center">
+                    <img src="photo.jpg" alt="Haoran Sun" class="profile-photo mb-3">
+                    <h1>Haoran Sun</h1>
+                    <p>Postdoc Research Fellow at Durham University</p>
+                </div>
+                <p>I am a Research Fellow at Durham University. I received my Ph.D in Economics from Durham University in 2023. My research interests are in applied microeconomics, with a focus on innovation, productivity, and taxation. My work mainly focuses on policy evaluation for the firm-level productivity and growth of small and medium-sized enterprises (SMEs) in the UK.</p>
+            </div>
+            <div class="tab-pane fade" id="research-tab-pane" role="tabpanel" aria-labelledby="research-tab" tabindex="0">
+                <h2>Publications</h2>
+                <ul>
+                    <li>Unpacking the Money-Distance Nexus: Mapping the Spatial Configuration of Exogenous Entrepreneurial Finance across UK Entrepreneurial Ecosystems<br>Ross Brown, Augusto Rocha, Haoran Sun, Marc Cowling<br>Small Business Economics (ABS3)</li>
+                    <li>Why do Owls Fly While Ostriches Flounder? SME Advice, Impacts and Entrepreneurial Outcomes<br>Ross Brown, Marc Cowling, Weixi Liu, Sabrina Song, Haoran Sun<br>Journal of Small Business Management (ABS3)</li>
+                </ul>
+                <h2>Working Papers</h2>
+                <ul>
+                    <li>Spatial Myopia, Financial Hubs and the “Golden Triangle”: Tracing the Uneven Landscape of Exogenous Equity Investments in the UK<br>Ross Brown, Haoran Sun, Augusto Rocha, Marc Cowling<br>British Journal of Management (ABS4), Revise & Resubmit</li>
+                    <li>Can We See it in the Numbers Yet? Artificial Intelligence, Firm-Level Productivity and SMEs<br>Ross Brown, Haoran Sun, Marc Cowling, Dowell David<br>Technovation (ABS3), under review</li>
+                    <li>Does “Slow” Thinking “Speed Up” Performance? The Impact of “Guided Preparation” on Innovation and Productivity in UK SMEs<br>Ross Brown, Haoran Sun, Weixi Liu, Marc Cowling, Sabrina Song<br>Industry and Innovation (ABS3), under review</li>
+                    <li>The Effect of Direct and Indirect Support for Innovation on Productivity: Evidence from Young UK Businesses<br>John Moffat, Haoran Sun<br>Working in progress - final draft</li>
+                    <li>Two Country Model of R&D Investment<br>Nigar Hashimzade, Haoran Sun<br>Working in progress - final draft</li>
+                    <li>Taxing the Clouds: An Economic Analysis<br>Nigar Hashimzade, Haoran Sun<br>Working in progress - final draft</li>
+                </ul>
+            </div>
+            <div class="tab-pane fade" id="teaching-tab-pane" role="tabpanel" aria-labelledby="teaching-tab" tabindex="0">
+                <ul>
+                    <li>2025-: Econometrics, Durham University</li>
+                    <li>2020: Macroeconomics, Durham University</li>
+                    <li>2019: Corporate Finance, Durham University</li>
+                </ul>
+            </div>
+            <div class="tab-pane fade" id="cv-tab-pane" role="tabpanel" aria-labelledby="cv-tab" tabindex="0">
+                <p>Download my full CV:</p>
+                <a href="CV_Haoran_Sun.pdf" class="btn btn-primary" download>Download CV (PDF)</a>
+            </div>
+            <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">
+                <p><strong>Address:</strong> Department of Economics, Durham University Business School, Mill Hill Lane, Durham, DH1 3LB</p>
+                <p><strong>Mobile:</strong> 07722100722</p>
+                <p><strong>Email:</strong> <a href="mailto:haoran.sun@durham.ac.uk">haoran.sun@durham.ac.uk</a></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap 5 JS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
